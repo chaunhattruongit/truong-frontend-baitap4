@@ -1,0 +1,213 @@
+extends _layout/layout
+
+block variables
+	- var title = 'Home'
+	- var description = 'Description for home page'
+	- var bodyclass = 'home'
+
+block body
+	section.banner
+		.container-fluid.pl-0.pr-0
+			.row
+				.col
+					.owl-carousel.oul-theme
+						.item
+							figure
+								a(href="#")
+									img.img-fluid(src="./img/home_banner_img_1.png", alt="")
+						.item
+							figure
+								a(href="#")
+									img.img-fluid(src="./img/home_banner_img_1.png", alt="")
+						.item
+							figure
+								a(href="#")
+									img.img-fluid(src="./img/home_banner_img_1.png", alt="")
+						.item
+							figure
+								a(href="#")
+									img.img-fluid(src="./img/home_banner_img_1.png", alt="")
+	section.product
+		.container
+			.row
+				.col-md-8.mt-5
+					figure
+						a(href="#")
+							img.img-fluid(src="./img/home_banner_img_2.png", alt="")
+				.col-md-4.mt-5
+					.item
+						figure
+							a(href="#")
+								img.img-fluid(src="./img/home_product_img_1.png", alt="")
+								figcaption
+									h3 Ice Cream
+									p.mb-0 $30
+			.row
+				.col-md-4.mb-5
+					.item
+						figure
+							a(href="#")
+								img.img-fluid(src="./img/home_product_img_2.png", alt="")
+								figcaption
+									h3 Ice Cream
+									p.mb-0 $30
+				.col-md-4.mb-5
+					.item
+						figure
+							a(href="#")
+								img.img-fluid(src="./img/home_product_img_3.png", alt="")
+								figcaption
+									h3 Ice Cream
+									p.mb-0 $30
+				.col-md-4.mb-5
+					.item
+						figure
+							a(href="#")
+								img.img-fluid(src="./img/home_product_img_4.png", alt="")
+								figcaption
+									h3 Ice Cream
+									p.mb-0 $30
+	section.sale
+		.container.pl-0.pr-0
+			.row
+				.col.mt-5.text-center
+					h2 TOP PIECES ON SALE
+			.row
+				.col-md-3.mt-2.mb-3
+					.item
+						figure
+							img.img-fluid(src="./img/home_product_img_5.png", alt="")
+							figcaption
+								.abc
+									figure
+										img.img-fluid.hinh1(src="./img/home_lens_img_1.png", alt="")
+										img.img-fluid.hinh2(src="./img/home_lens_img_1.png", alt="")
+								.def
+									h3 Ice Cream
+									p $50
+									button
+										span Contact
+				.col-md-3.mt-2.mb-3
+					.item
+						figure
+							img.img-fluid(src="./img/home_product_img_6.png", alt="")
+							figcaption
+								.abc
+									figure
+										img.img-fluid.hinh1(src="./img/home_lens_img_2.png", alt="")
+										img.img-fluid.hinh2(src="./img/home_lens_img_2.png", alt="")
+								.def
+									h3 Ice Cream
+									p $50
+									button
+										span Contact
+				.col-md-3.mt-2.mb-3
+					.item
+						figure
+							img.img-fluid(src="./img/home_product_img_7.png", alt="")
+							figcaption
+								.abc
+									figure
+										img.img-fluid.hinh1(src="./img/home_lens_img_1.png", alt="")
+										img.img-fluid.hinh2(src="./img/home_lens_img_1.png", alt="")
+								.def
+									h3 Ice Cream
+									p $50
+									button
+										span Contact
+				.col-md-3.mt-2.mb-3
+					.item
+						figure
+							img.img-fluid(src="./img/home_product_img_8.png", alt="")
+							figcaption
+								.abc
+									figure
+										img.hinh1(src="./img/home_lens_img_2.png", alt="")
+										img.hinh2(src="./img/home_lens_img_2.png", alt="")
+								.def
+									h3 Ice Cream
+									p $50
+									button
+										span Contact
+			.row
+				.col.mb-5
+					.ghk
+						figure
+							img.img-fluid(src="./img/home_banner_img_3.png", alt="")
+							figcaption
+								.text
+									h3 Grand Opening
+									p 179D CMT8,P5,Q3.TPHCM
+									button
+										span View more
+								.hinh
+									figure
+										img.img-fluid(src="./img/home_lens_img_3.png", alt="")
+	section.bestsaler
+		.container
+			.row
+				.col.text-center.mb-3.mt-5
+					h2 BEST SALER
+			.row
+				.col.mb-4
+					.owl-carousel.oul-theme
+						.item
+							.row
+								.col-md-1
+								.col-md-6.text-center
+									figure
+										img.img-fluid(src="./img/home_slider_img_1.png", alt="")
+								.col-md-4
+									.detail.text-center
+										figure
+											img.img-fluid(src="./img/home_slider_detail_1.png", alt="")
+										h4 Ice Cream
+										p $100
+										button
+											span View more
+								.col-md-1
+						.item
+							.row
+								.col-md-1
+								.col-md-6.text-center
+									figure
+										img.img-fluid(src="./img/home_slider_img_1.png", alt="")
+								.col-md-4
+									.detail.text-center
+										figure
+											img.img-fluid(src="./img/home_slider_detail_1.png", alt="")
+										h4 Ice Cream
+										p $100
+										button
+											span View more
+								.col-md-1
+						.item
+							.row
+								.col-md-1
+								.col-md-6.text-center
+									figure
+										img.img-fluid(src="./img/home_slider_img_1.png", alt="")
+								.col-md-4
+									.detail.text-center
+										figure
+											img.img-fluid(src="./img/home_slider_detail_1.png", alt="")
+										h4 Ice Cream
+										p $100
+										button
+											span View more
+								.col-md-1
+						.item
+							.row
+								.col-md-1
+								.col-md-6.text-center
+									figure
+										img.img-fluid(src="./img/home_slider_img_1.png", alt="")
+								.col-md-4
+									.detail.text-center
+										figure
+											img.img-fluid(src="./img/home_slider_detail_1.png", alt="")
+										h4 Ice Cream
+										p $100
+										button
+											span View more
+								.col-md-1
